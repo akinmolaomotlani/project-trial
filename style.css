@@ -30,7 +30,7 @@ nav {
 }
 
 /* welcome section */
-#welcome-section {
+.welcome-section {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -38,17 +38,17 @@ nav {
   background: linear-gradient(to left, #212121, #424242);
 }
 
-#welcome-section h1,
-p {
+.heading-primary,
+.hero-description {
   text-align: center;
 }
 
-#welcome-section h1 {
+.primary-heading {
   font-size: 4rem;
   color: #fafafa;
 }
 
-#welcome-section p {
+.hero-description {
   font-size: 1.5rem;
   font-style: italic;
   color: #ef5350;
@@ -56,7 +56,7 @@ p {
 }
 
 /* projects section */
-#projects {
+.projects {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -66,14 +66,15 @@ p {
   gap: 4rem;
 }
 
-#projects h2 {
+.secondary-heading {
   color: #fafafa;
   font-size: 3rem;
   padding-bottom: 1rem;
   border-bottom: 3px solid #fafafa;
 }
 
-#projects .project-tile-container {
+.projects,
+.project-tile-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -97,7 +98,7 @@ p {
   background: #424242;
 }
 
-.project-tile h3 {
+.tertiary-heading {
   font-weight: 500;
   color: #fafafa;
 }
@@ -108,7 +109,7 @@ p {
   object-fit: cover;
 }
 
-#profile-link {
+.profile-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,7 +121,7 @@ p {
   font-size: 1rem;
 }
 
-#profile-link .icon {
+.profile-link .icon {
   margin-left: 0.5rem;
   font-size: 1.6rem;
 }
